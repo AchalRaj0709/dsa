@@ -1,4 +1,4 @@
-public class LinkedList {
+public class LinkedListQS{
     public static class Node {
         int data;
         Node next;
@@ -318,7 +318,7 @@ public class LinkedList {
     }
 
     public static void main(String[] args) {
-        LinkedList ll=new LinkedList();
+        LinkedListQS ll=new LinkedListQS();
         ll.addLast(1);
         ll.addLast(2);
         ll.addLast(3);
@@ -331,6 +331,4 @@ public class LinkedList {
 
        
     }
-
-    
 }
